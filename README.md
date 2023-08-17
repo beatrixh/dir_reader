@@ -10,10 +10,11 @@ Note: download functionality currently offline.
 `cd ~/`
 3. Clone this repository into your directory:
 `git clone https://github.com/beatrixh/dir_reader.git`
-4. Navigate into `my-nosejs-service`:
+4. Edit the `credentials.json` file to populate the client ID and secret/
+5. Navigate into `my-nosejs-service`:
 `cd dir_reader/my-nosejs-service`
-5. Run `nose listGoogleDriveFiles.js`
-6. Respond to the prompt requesting a google drive folder ID.
+6. Run `nose listGoogleDriveFiles.js`
+7. Respond to the prompt requesting a google drive folder ID.
 
 
 Note: given a link to a google drive folder:
